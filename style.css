@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    background-color: lightgray;
+}
+.flex {
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+#encabezado {
+    justify-content: center;
+    background-color: whitesmoke;
+}
+#cuerpo {
+    align-items: center;
+}
+.posts {
+    justify-items: center;
+    background-color: darkgrey;
+    width: 550px;
+    margin: 15px;
+}
+.div-image {
+    margin: auto;
+}
+.titulo-foto {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+.titulo-foto h3{
+    margin: 0;
+}
+.posts>footer {
+    padding: 10px 15px;
+}
